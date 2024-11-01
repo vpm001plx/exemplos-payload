@@ -1,6 +1,6 @@
 curl --location 'https://34.36.248.234.nip.io/hackathon-fatec' \
 --header 'Content-Type: application/json' \
---header 'Authorization: ••••••' \
+--header 'Authorization: Basic N3M5NkdtR2xQSDR1QW1obEdRRWRlbTc5T0I5R0hBZjVvQXVrQTM5Qk9Bck9meE5sOmwzUUJQQ0xjbDNkWkNvam13bmk0NUtYRXJVR0FzMEdBVkduQWZBRFdHTmo5dVFKbEF4V25ieVJLbnhBR2RBVk0=' \
 --data '{
     "model": "gpt-3.5-turbo",
     "messages": [{"role": "user", "content": "Requisição chegou na LLM?"}]
