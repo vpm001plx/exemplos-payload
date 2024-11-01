@@ -1,0 +1,7 @@
+curl --location 'https://34.36.248.234.nip.io/hackathon-fatec' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: ••••••' \
+--data '{
+    "model": "gpt-3.5-turbo",
+    "messages": [{"role": "user", "content": "Requisição chegou na LLM?"}]
+}'

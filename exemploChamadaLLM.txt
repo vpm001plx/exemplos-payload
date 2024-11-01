@@ -1,0 +1,7 @@
+curl https://agent.lmuss.io/api/v1/prediction/5703ed2a-3057-46ec-9619-76c71ea8b2e7 \
+     -X POST \
+     -d '{
+           "question": "O atendimento foi ótimo, todos foram muito atenciosos e o médico explicou meu tratamento com detalhes. A única sugestão que tenho é que poderiam reduzir o tempo de espera na recepção. Seria excelente se conseguissem melhorar isso!","overrideConfig":{"analytics":{"langFuse":{"userId":"nome_to_time"}}}
+         }' \
+     -H "Content-Type: application/json" \
+     -H "Authorization: Bearer uF6TJLlcl8e5_pQ-bHZQ8f1XBEjsTO5UJops_cHtWBc"
